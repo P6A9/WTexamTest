@@ -1,0 +1,17 @@
+name{
+  font-size:30pt;
+  color:magenta;
+  font-weight:bold;
+  text-decoration:underline;
+  background-color:cyan;
+  font-family:fantasy;
+  text-align:center;
+  display:block;
+}
+age{
+  font-size:20pt;
+  color:green;
+  font-family:sans-serif;
+  text-align:center;
+  display:block;
+}

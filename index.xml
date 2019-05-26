@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xml.css"?>
+<!DOCTYPE aliens SYSTEM "index.dtd">
 
 <aliens>
-  <alien aid="one">
-    <name>hol</name>
+  <alien>
+    <name>Holly</name>
     <age>29</age>
+  </alien>
+  <alien>
+    <name>Nancy</name>
+    <age>31</age>
   </alien>
 </aliens>
