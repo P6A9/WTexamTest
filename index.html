@@ -8,7 +8,40 @@
   <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body background ="https://i.ytimg.com/vi/ReF6iQ7M5_A/maxresdefault.jpg">
-  <script src="script.js">
+  <script type="text/javascript">
+    var a=10;
+    var b="5";  //Alternate between "August" a number string to see computed value vs NaN.
+    var c=a.toString();
+    console.log("The result of a+b is :", a+b);
+    console.log("The result of a*b is :", a*b);
+    console.log("The result of c is :", c);
+    console.log("math.floor(5.5) :", Math.ceil(5.5));
+    console.log("converting string to number using Number() : ",Number("10"));
+    console.log(parseInt("6 Hi there, I'm 6 feet tall."));
+    console.log(parseFloat("6.6 Hi there, I'm 6.6 feet tall."));
+    console.log("Hector".charAt(3));
+    console.log("Hector".indexOf('c'));
+    console.log("Hector".substring(2,4));
+    console.log("Hector".length);
+    console.log("Hector".toUpperCase());
+    console.log("Hector".toLowerCase());
+    console.log(typeof(NaN));
+    a+=10;
+    console.log("The updated value of a is :",a);
+    var now = new Date();
+    console.log("toLocaleString() : ",now.toLocaleString());
+    console.log("getDate() :",now.getDate());
+    console.log("getTime() :", now.getTime());
+    console.log("getHours():",now.getHours());
+    console.log("getFullYear() :",now.getFullYear());
+    console.log("getMinutes :",now.getMinutes());
+    console.log("getSeconds() :",now.getSeconds());
+
+    alert("You are about to be shown a confirm window next");
+    var s= confirm("Do you accept that you are wrong?");
+    console.log(s);
+    var t=prompt("Enter you name","Default name");
+    console.log(t); 
   </script>
   <br/>
   <h1 align="center">This page is legen...wait for it...</h1>
