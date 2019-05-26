@@ -5,19 +5,38 @@
   <meta charset="utf-8">
   <title> WT Exam </title>
   <style type="text/css">
-    input.one:hover{background:blue; font-size:20pt;}
+    input.one:hover{color:blue; font-size:20pt;}
     #me:hover{
       color:#ffffff;
       font-size:20;
     }
+    #ul{
+      list-style-type:circle;
+    }
+    img{
+      float:center;
+      width:150px;
+      height:120px;
+    }
     h1,th{
       font-size:30pt;
-      color:white;
+      color:maroon;
       font-family:"Andale Mono";
     }
     td{
       font-family:"calibri";
       font-weight:bold;
+      font-size:20pt;
+      text-decoration:underline;
+    }
+    p.onee{
+      color:rgb(100, 200, 255);
+      font-size:25pt;
+      font-family:"cursive";
+      text-indent:0.5in;
+    }
+    .two{
+      color:green;
       font-size:20pt;
     }
   </style>
@@ -37,7 +56,7 @@
   <a href="one.htm">Click here to search for literally anything!</a>
   <br/>
   <!--Adding an image-->
-  <img src="randomimage.png" alt="Damn, this didn't load?"/>
+  <img src="cool.png" alt="Damn, this didn't load?"/>
   </center>
   <br/>
   <!--lists: ordered and unordered -->
@@ -46,7 +65,7 @@
     <li>Two</li>
   </ol>
   <br>
-  <ul>
+  <ul id="ul">
     <li>one</li>
     <li>two</li>
   </ul>
@@ -78,11 +97,13 @@
    <input  type="checkbox"/>Same here! I see the irony.<br>
    <input type="file"/><br>
    <input type="password"/><br>
-   <input type="button" value="I'm redundant because of the submit button!"/><br>
+   <input class="two" type="button" value="I'm redundant because of the submit button!"/><br>
    <input class="one" type="submit" name="s1" value="Submit the damn form man!"/><br>
    <input type="reset"/>
  </form>
  <!--cascading style sheets-->
  <p id="me">Well, hello there, my munchkins!</p>
+ <br/>
+<p class="onee"> WHo you calling munchkins?!</p>
 </body>
 </html>
