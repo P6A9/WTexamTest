@@ -4,6 +4,23 @@
 <head>
   <meta charset="utf-8">
   <title> WT Exam </title>
+  <style type="text/css">
+    input.one:hover{background:blue; font-size:20pt;}
+    #me:hover{
+      color:#ffffff;
+      font-size:20;
+    }
+    h1,th{
+      font-size:30pt;
+      color:white;
+      font-family:"Andale Mono";
+    }
+    td{
+      font-family:"calibri";
+      font-weight:bold;
+      font-size:20pt;
+    }
+  </style>
 </head>
 <body background ="https://i.ytimg.com/vi/ReF6iQ7M5_A/maxresdefault.jpg">
   <br/>
@@ -55,14 +72,17 @@
     </tr>
   </table>
  <!--forms-->
- <form action="hypelink.html">
+ <form action="one.htm" method="post" target="_blank">
    <input type="text" value="Name"/><br>
    <input type="radio" />You have no choice but me. Hueueue<br>
-   <input type="checkbox"/>Same here! I see the irony.<br>
+   <input  type="checkbox"/>Same here! I see the irony.<br>
+   <input type="file"/><br>
    <input type="password"/><br>
    <input type="button" value="I'm redundant because of the submit button!"/><br>
-   <input type="submit" name="s1" value="Submit the damn form man!"/><br>
+   <input class="one" type="submit" name="s1" value="Submit the damn form man!"/><br>
    <input type="reset"/>
  </form>
+ <!--cascading style sheets-->
+ <p id="me">Well, hello there, my munchkins!</p>
 </body>
 </html>
