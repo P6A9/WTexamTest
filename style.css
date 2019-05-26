@@ -1,0 +1,46 @@
+/* CSS file for WTexamTest index.html file.
+*/
+
+input.one:hover{
+    color:blue; font-size:20pt;
+  }
+#me:hover{
+  color:#ffffff;
+  font-size:20;
+  border-style:double;
+  border-color:blue;
+  margin-right:1100px;
+  padding-left:50px;
+}
+#ul{
+  list-style-type:circle;
+}
+img{
+  float:center;
+  width:150px;
+  height:120px;
+}
+h1,th{
+  font-size:30pt;
+  color:maroon;
+  font-family:"Andale Mono";
+}
+td{
+  font-family:"calibri";
+  font-weight:bold;
+  font-size:20pt;
+  text-decoration:underline;
+}
+p.onee{
+  color:rgb(255, 200, 0);
+  font-size:25pt;
+  font-family:"cursive";
+  text-indent:0.5in;
+  background-image:url(cool.png);
+  background-repeat:repeat-y;
+  background-position:left;
+}
+.two{
+  color:green;
+  font-size:20pt;
+}
